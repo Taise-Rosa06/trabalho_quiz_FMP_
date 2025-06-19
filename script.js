@@ -1,11 +1,21 @@
 const questions = [
     {
-        question: "Quando  a FMP foi fundada?",
+        question: "Quando a FMP foi fundada?",
         answers: [
             { id: 1, text: "28 de outubro de 2006", correct:false},
             { id: 2, text: "16 de outubro de 2006", correct:false},
             { id: 3, text: "29 de outubro de 2006", correct:false},
             { id: 4, text: "25 de outubro de 2005", correct:true},
+
+        ],
+    },
+    {
+        question: "Quando a FMP foi inaugurada?",
+        answers: [
+            { id: 1, text: "15 de fevereiro de 2006", correct:false},
+            { id: 2, text: "25 de maio de 2006", correct:false},
+            { id: 3, text: "18 de março de 2006", correct:false},
+            { id: 4, text: "20 de abril de 2006", correct:true},
 
         ],
     },
@@ -30,42 +40,12 @@ const questions = [
         ],
     },
     {
-        question: "Qual a data de início das atividades da educadora Marileia Silveira da Costa na FMP?",
-        answers: [
-            { id: 1, text: "2007", correct:true},
-            { id: 2, text: "2008", correct:false},
-            { id: 3, text: "2006", correct:false},
-            { id: 4, text: "2009", correct:false},
-
-        ],
-    },
-    {
-        question: "Quando a FMP foi inaugurada?",
-        answers: [
-            { id: 1, text: "15 de fevereiro de 2006", correct:false},
-            { id: 2, text: "25 de maio de 2006", correct:false},
-            { id: 3, text: "18 de março de 2006", correct:false},
-            { id: 4, text: "20 de abril de 2006", correct:true},
-
-        ],
-    },
-    {
         question: "Qual porcentagem das vagas são oferecidas aos alunos oriundos de escolas pública e que residam no município de Palhoça e região?",
         answers: [
             { id: 1, text: "75%", correct:false},
             { id: 2, text: "90%", correct:true},
             { id: 3, text: "85%", correct:false},
             { id: 4, text: "80%", correct:false},
-
-        ],
-    },
-    {
-        question: "Quantos laboratórios tem na faculdade?",
-        answers: [
-            { id: 1, text: "3", correct:false},
-            { id: 2, text: "4", correct:false},
-            { id: 3, text: "5", correct:true},
-            { id: 4, text: "6", correct:false},
 
         ],
     },
@@ -110,32 +90,12 @@ const questions = [
         ],
     },
     {
-        question: "Quantos tipos de graduação a faculdade oferece?",
-        answers: [
-            { id: 1, text: "2", correct:false},
-            { id: 2, text: "3", correct:true},
-            { id: 3, text: "4", correct:false},
-            { id: 4, text: "5", correct:false},
-
-        ],
-    },
-    {
         question: "Quais tipos de graduação a faculdade oferece?",
         answers: [
             { id: 1, text: "Bacharel e Tecnólogo", correct:false},
             { id: 2, text: "Tecnólogo e Licenciatura", correct:false},
             { id: 3, text: "Licenciatura e Bacharel", correct:false},
             { id: 4, text: "Todas as anteriores", correct:true},
-
-        ],
-    },
-    {
-        question: "Qual opção abaixo inclui 3 tipos de atividades complementares que estão incluídas na Área de Atividades Científico-Acadêmicas na FMP?",
-        answers: [
-            { id: 1, text: "Doação de sangue, Curso de idioma e Visita técnica ", correct:false},
-            { id: 2, text: "Atividades de Extensão, Atividades Culturais, Publicações e Produções Acadêmicas", correct:false},
-            { id: 3, text: "Oficina de Apoio à Aprendizagem, Participação em grupo de estudo formalizado na Instituição e Autoria e co-autoria em livros e/ou capítulos de livros ", correct:true},
-            { id: 4, text: "Seminários e palestras, Monitoria e Desfile cívico ", correct:false},
 
         ],
     },
@@ -180,22 +140,12 @@ const questions = [
         ],
     },
     {
-        question: "Quem é o/a professor/a responsável pelo programa de pesquisa 'ilab' da FMP?",
+        question: "Quem é o/a professor/a responsável pelo programa de pesquisa 'ILAB' da FMP?",
         answers: [
             { id: 1, text: "Prof. Clodomir Coradini", correct:false},
             { id: 2, text: "Profª Daniela Amorim ", correct:true},
             { id: 3, text: "Profª Simone Regina da Silva", correct:false},
             { id: 4, text: "Prof. Rafael Novo da Rosa", correct:false},
-
-        ],
-    },
-    {
-        question: "Onde foi realizada a 9ª edição do projeto fruto do conhecimento?",
-        answers: [
-            { id: 1, text: "Praça 7 de Setembro", correct:true},
-            { id: 2, text: "Praça 11 de Novembro", correct:false},
-            { id: 3, text: "Praça 15 de Março", correct:false},
-            { id: 4, text: "Praça 8 de Agosto", correct:false},
 
         ],
     },
@@ -216,26 +166,6 @@ const questions = [
             { id: 2, text: "4 anos", correct:false},
             { id: 3, text: "3,5 anos", correct:false},
             { id: 4, text: "2 anos", correct:true},
-
-        ],
-    },
-    {
-        question: "Qual o horário de atendimento da biblioteca da FMP?",
-        answers: [
-            { id: 1, text: "07h às 12h e 13h ás 19h", correct:false},
-            { id: 2, text: "08h às 12h e 14h às 20h", correct:false},
-            { id: 3, text: "07h às 13h e 13h às 21h", correct:true},
-            { id: 4, text: "08h às 13h e 14h às 20:30h", correct:false},
-
-        ],
-    },
-    {
-        question: "A partir de qual Lei a instituição passou a ser denominada: Faculdade Municipal de Palhoça - Educadora Marileia Silveira da Costa?",
-        answers: [
-            { id: 1, text: "Lei nº 5.234", correct:false},
-            { id: 2, text: "Lei nº 6.575", correct:false},
-            { id: 3, text: "Lei nº 3.857", correct:false},
-            { id: 4, text: "Lei nº 4.670", correct:true},
 
         ],
     },
