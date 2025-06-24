@@ -30,12 +30,22 @@ const questions = [
         ],
     },
     {
-        question: "Quantos cursos a FMP oferece?",
+        question: "Quantos cursos a FMP está oferecendo atualmente, no ano de 2025?",
         answers: [
             { id: 1, text: "6 cursos de graduação", correct:false},
-            { id: 2, text: "4 cursos de graduação", correct:false},
-            { id: 3, text: "5 cursos de graduação", correct:true},
+            { id: 2, text: "4 cursos de graduação", correct:true},
+            { id: 3, text: "5 cursos de graduação", correct:false},
             { id: 4, text: "3 cursos de graduação", correct:false},
+
+        ],
+    },
+    {
+        question: "Quais cursos a FMP está oferecendo atualmente, no ano de 2025?",
+        answers: [
+            { id: 1, text: "ADS, Pedagogia, Engenharia Civil e Arquitetura", correct:false},
+            { id: 2, text: "Processos Gerenciais, Pedagogia, Administração e ADS", correct:true},
+            { id: 3, text: "Educação Física, Administração, História e Sociologia", correct:false},
+            { id: 4, text: "Direito, Nutrição, Processos Gerenciais e Psicologia ", correct:false},
 
         ],
     },
@@ -56,6 +66,16 @@ const questions = [
             { id: 2, text: "Profª Mariane Estefano", correct:false},
             { id: 3, text: "Profª Francini Sheid Martins", correct:false},
             { id: 4, text: "Profª Vera Regina Lúcio", correct:false},
+
+        ],
+    },
+    {
+        question: "Quantos laboratórios a faculdade possui?",
+        answers: [
+            { id: 1, text: "3", correct:false},
+            { id: 2, text: "4", correct:false},
+            { id: 3, text: "5", correct:true},
+            { id: 4, text: "6", correct:false},
 
         ],
     },
