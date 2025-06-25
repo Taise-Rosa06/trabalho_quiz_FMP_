@@ -93,3 +93,10 @@ footer {
     margin-top: 30px;
     font-size: 14px;
 }
+
+footer img {
+    max-height: 16.8px;
+    height: auto;       
+    width: auto;        
+    vertical-align: middle;
+}
